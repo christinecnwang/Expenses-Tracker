@@ -7,7 +7,6 @@ import "./ExpenseItem.css";
 
 const ExpenseItem = (props) => {
   const deleteHandler = () => {
-    console.log("click!");
     props.onDelete(props.id);
   };
 

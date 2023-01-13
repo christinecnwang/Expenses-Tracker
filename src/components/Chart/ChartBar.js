@@ -19,7 +19,7 @@ const ChartBar = (props) => {
       </div>
       <div className='chart-bar__label'>{props.label}</div>
       <div className='chart-bar__value'>
-        {props.value > 0 && "$" + props.value}
+        {props.value > 0 && "$" + props.value.toFixed(2)}
       </div>
     </div>
   );
