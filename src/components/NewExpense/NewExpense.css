@@ -13,10 +13,10 @@
   font: inherit;
   cursor: pointer;
   padding: 0.8rem 1.8rem;
-  border: 1px solid white;
+  border: 1px solid #ebe9ee;
   font-weight: bold;
   background-color: #412279;
-  color: white;
+  color: #ebe9ee;
   border-radius: 12px;
   margin: 0.5rem;
 }

@@ -22,17 +22,22 @@
   font-size: 1rem;
   flex: 1;
   margin: 0 1rem;
-  color: white;
+  color: #ebe9ee;
 }
 
 .expense-item__price {
   font-size: 1rem;
   font-weight: bold;
-  color: white;
+  color: #ebe9ee;
   background-color: #412279;
-  border: 1px solid white;
+  border: 1px solid #ebe9ee;
   padding: 0.5rem;
   border-radius: 12px;
+}
+
+.delete-button {
+  color: #ebe9ee;
+  cursor: pointer;
 }
 
 @media (min-width: 580px) {

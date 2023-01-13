@@ -24,7 +24,7 @@ const Chart = (props) => {
           />
         ))}
       </div>
-      <div className='total'>Yearly Total: ${fixedYearTotal}</div>
+      <div className='total'>Year Total: ${fixedYearTotal}</div>
     </div>
   );
 };

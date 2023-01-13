@@ -65,14 +65,40 @@ const App = () => {
 
   const addExpenseHandler = (expense) => {
     setExpenses((prevExpenses) => {
-      return [expense, ...prevExpenses];
+      const updatedExpenses = [expense, ...prevExpenses];
+      // const updatedExpenses = [...prevExpenses];
+      // updatedExpenses.unshift({
+      //   id: Math.random().toString(),
+      //   title: expense,
+      //   amount: expense.amount,
+      //   date: expense.date,
+      // });
+      return updatedExpenses;
     });
   };
+
+  const deleteExpenseHandler = (expenseId) => {
+    setExpenses((prevExpenses) => {
+      const updatedExpenses = prevExpenses.filter(
+        (expense) => expense.id !== expenseId
+      );
+      return updatedExpenses;
+    });
+    // setExpenses(expenses.filter((expense) => expense.id !== expenseId));
+  };
+
+  // let content = <h2 className='expenses-list__fallback'>Found no expenses.</h2>;
+
+  // if (expenses.length > 0) {
+  //   content = (
+  //     <ExpensesList items={expenses} onDeleteExpense={deleteExpenseHandler} />
+  //   );
+  // }
 
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
-      <Expenses items={expenses} />
+      <Expenses items={expenses} onDeleteExpense={deleteExpenseHandler} />
     </div>
   );
 };
