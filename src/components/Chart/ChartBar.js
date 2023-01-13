@@ -18,6 +18,9 @@ const ChartBar = (props) => {
         ></div>
       </div>
       <div className='chart-bar__label'>{props.label}</div>
+      <div className='chart-bar__value'>
+        {props.value > 0 && "$" + props.value}
+      </div>
     </div>
   );
 };

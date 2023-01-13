@@ -2,8 +2,25 @@
   padding: 1rem;
   border-radius: 12px;
   background-color: #f8dfff;
+  border: 1px solid #412279;
   text-align: center;
   display: flex;
   justify-content: space-around;
   height: 10rem;
+}
+
+.total {
+  padding: 0.5rem 0 0.5rem;
+  border-radius: 12px;
+  background-color: #f8dfff;
+  font-weight: bold;
+  border: 1px solid #412279;
+  text-align: center;
+  margin: 1rem 15rem 1rem 15rem;
+}
+
+@media screen and (max-width: 700px) {
+  .total {
+    margin: 1rem 5rem 1rem 5rem;
+  }
 }
