@@ -5,3 +5,8 @@
   width: 50rem;
   max-width: 95%;
 }
+
+.expenses-title {
+  color: #f8dfff;
+  text-align: center;
+}
