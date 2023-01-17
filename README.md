@@ -6,8 +6,6 @@ Visit https://ionized-childlike-dichondra.glitch.me to use this application.
 
 ![Paylapse](https://user-images.githubusercontent.com/96750529/212849540-084b5a81-1feb-4827-9dfa-a0968ea40d54.png)
 
-![add expense](https://user-images.githubusercontent.com/96750529/212833064-f92bac33-c0db-4cfe-88fd-e0d91341ddb1.png)
-
 ### Installing and Starting
 
 ###### Clone This Repo
