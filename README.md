@@ -1,10 +1,10 @@
-# Expenses Tracker
+# Paylapse
 
 Web application that uses React to build a responsive web page that allows you to view, add, and delete your monthly expenses, which are filtered by year.
 
 Visit https://ionized-childlike-dichondra.glitch.me to use this application.
 
-![expenses tracker](https://user-images.githubusercontent.com/96750529/212832839-f012028e-7a75-4379-b45c-751ab4815774.png)
+![Paylapse](https://user-images.githubusercontent.com/96750529/212849540-084b5a81-1feb-4827-9dfa-a0968ea40d54.png)
 
 ![add expense](https://user-images.githubusercontent.com/96750529/212833064-f92bac33-c0db-4cfe-88fd-e0d91341ddb1.png)
 
@@ -13,7 +13,7 @@ Visit https://ionized-childlike-dichondra.glitch.me to use this application.
 ###### Clone This Repo
 
 ```
-git clone https://github.com/christinecnwang/Expenses-Tracker.git
+git clone https://github.com/christinecnwang/Paylapse.git
 ```
 
 ###### Install Dependencies
