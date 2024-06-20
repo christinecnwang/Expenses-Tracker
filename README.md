@@ -1,8 +1,6 @@
 # Paylapse
 
-Web application that uses React to build a responsive web page that allows you to view, add, and delete your monthly expenses, which are filtered by year.
-
-Visit https://ionized-childlike-dichondra.glitch.me to use this application.
+React web application that allows you to view, add, and delete your monthly expenses, which are filtered by year and visually displayed.
 
 ![Paylapse](https://user-images.githubusercontent.com/96750529/212849540-084b5a81-1feb-4827-9dfa-a0968ea40d54.png)
 
